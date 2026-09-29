@@ -1,3 +1,19 @@
+# @stackline/grunt-contrib-copy
+
+Independent maintenance fork of `grunt-contrib-copy@1.0.0`. Original API, module format, runtime dependency ranges, and supported Node.js engines are preserved.
+
+```sh
+npm install @stackline/grunt-contrib-copy
+# Preserve existing imports with an npm alias:
+npm install grunt-contrib-copy@npm:@stackline/grunt-contrib-copy@1.0.0
+```
+
+See [UPSTREAM.md](UPSTREAM.md) for the exact source and issue review, and [CHANGELOG.md](CHANGELOG.md) for focused maintenance changes. Development and release tooling runs on Node.js 24; that does not change the library runtime requirement.
+
+Maintained by [Stackline](https://alexandro.net/). [Issues](https://github.com/alexandroit/stackline-grunt-contrib-copy/issues) · [npm](https://www.npmjs.com/package/@stackline/grunt-contrib-copy).
+
+## Upstream documentation
+
 # grunt-contrib-copy v1.0.0 [![Build Status: Linux](https://travis-ci.org/gruntjs/grunt-contrib-copy.svg?branch=master)](https://travis-ci.org/gruntjs/grunt-contrib-copy) [![Build Status: Windows](https://ci.appveyor.com/api/projects/status/fe6l517l01ys2y86/branch/master?svg=true)](https://ci.appveyor.com/project/gruntjs/grunt-contrib-copy/branch/master)
 
 > Copy files and folders
