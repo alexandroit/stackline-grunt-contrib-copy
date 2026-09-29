@@ -1,20 +1,49 @@
 # @stackline/grunt-contrib-copy
 
-Independent maintenance fork of `grunt-contrib-copy@1.0.0`. Original API, module format, runtime dependency ranges, and supported Node.js engines are preserved.
+> Copy files and folders.
 
-```sh
+[![npm version](https://img.shields.io/npm/v/@stackline/grunt-contrib-copy.svg?style=flat-square)](https://www.npmjs.com/package/@stackline/grunt-contrib-copy)
+[![license](https://img.shields.io/npm/l/@stackline/grunt-contrib-copy.svg?style=flat-square)](https://github.com/alexandroit/stackline-grunt-contrib-copy)
+[![GitHub repository](https://img.shields.io/badge/GitHub-alexandroit%2Fstackline-grunt-contrib-copy-181717?style=flat-square&logo=github)](https://github.com/alexandroit/stackline-grunt-contrib-copy)
+[![Docs](https://img.shields.io/badge/docs-alexandro.net-0f766e?style=flat-square)](https://alexandro.net/docs/vanilla/grunt-contrib-copy/)
+[![Reddit community](https://img.shields.io/badge/community-r%2FStackline-ff4500?style=flat-square&logo=reddit&logoColor=white)](https://www.reddit.com/r/Stackline/)
+
+**[Documentation](https://alexandro.net/docs/vanilla/grunt-contrib-copy/)** | **[npm](https://www.npmjs.com/package/@stackline/grunt-contrib-copy)** | **[Issues](https://github.com/alexandroit/stackline-grunt-contrib-copy/issues)** | **[Repository](https://github.com/alexandroit/stackline-grunt-contrib-copy)**
+
+**Current package version:** `1.0.1`
+
+---
+
+## Why this package?
+
+`@stackline/grunt-contrib-copy` is the Stackline-maintained distribution of `grunt-contrib-copy@1.0.0`. It is an independent continuation of [grunt-contrib-copy](https://github.com/gruntjs/grunt-contrib-copy); original authors and licenses remain credited below.
+
+## Compatibility
+
+| Item | Value |
+| :--- | :--- |
+| Package | `@stackline/grunt-contrib-copy@1.0.1` |
+| API target | `grunt-contrib-copy@1.0.0` |
+| Supported Node.js | `>=0.10.0` |
+| License | `MIT` |
+| Main entry | `tasks/copy.js` |
+| Runtime dependencies | `chalk, file-sync-cmp` |
+
+## Installation
+
+```bash
 npm install @stackline/grunt-contrib-copy
-# Preserve existing imports with an npm alias:
-npm install grunt-contrib-copy@npm:@stackline/grunt-contrib-copy@1.0.0
 ```
 
-See [UPSTREAM.md](UPSTREAM.md) for the exact source and issue review, and [CHANGELOG.md](CHANGELOG.md) for focused maintenance changes. Development and release tooling runs on Node.js 24; that does not change the library runtime requirement.
+Preserve existing imports and plugin resolution with an npm alias:
 
-Maintained by [Stackline](https://alexandro.net/). [Issues](https://github.com/alexandroit/stackline-grunt-contrib-copy/issues) · [npm](https://www.npmjs.com/package/@stackline/grunt-contrib-copy).
+```bash
+npm install grunt-contrib-copy@npm:@stackline/grunt-contrib-copy
+```
 
-## Upstream documentation
+## Usage and API reference
 
-# grunt-contrib-copy v1.0.0 [![Build Status: Linux](https://travis-ci.org/gruntjs/grunt-contrib-copy.svg?branch=master)](https://travis-ci.org/gruntjs/grunt-contrib-copy) [![Build Status: Windows](https://ci.appveyor.com/api/projects/status/fe6l517l01ys2y86/branch/master?svg=true)](https://ci.appveyor.com/project/gruntjs/grunt-contrib-copy/branch/master)
+### grunt-contrib-copy v1.0.0 [![Build Status: Linux](https://travis-ci.org/gruntjs/grunt-contrib-copy.svg?branch=master)](https://travis-ci.org/gruntjs/grunt-contrib-copy) [![Build Status: Windows](https://ci.appveyor.com/api/projects/status/fe6l517l01ys2y86/branch/master?svg=true)](https://ci.appveyor.com/project/gruntjs/grunt-contrib-copy/branch/master)
 
 > Copy files and folders
 
@@ -25,13 +54,13 @@ Maintained by [Stackline](https://alexandro.net/). [Issues](https://github.com/a
 If you haven't used [Grunt](http://gruntjs.com/) before, be sure to check out the [Getting Started](http://gruntjs.com/getting-started) guide, as it explains how to create a [Gruntfile](http://gruntjs.com/sample-gruntfile) as well as install and use Grunt plugins. Once you're familiar with that process, you may install this plugin with this command:
 
 ```shell
-npm install grunt-contrib-copy --save-dev
+npm install @stackline/grunt-contrib-copy --save-dev
 ```
 
 Once the plugin has been installed, it may be enabled inside your Gruntfile with this line of JavaScript:
 
 ```js
-grunt.loadNpmTasks('grunt-contrib-copy');
+grunt.loadNpmTasks('@stackline/grunt-contrib-copy');
 ```
 
 *This plugin was designed to work with Grunt 0.4.x. If you're still using grunt v0.3.x it's strongly recommended that [you upgrade](http://gruntjs.com/upgrading-from-0.3-to-0.4), but in case you can't please use [v0.3.2](https://github.com/gruntjs/grunt-contrib-copy/tree/grunt-0.3-stable).*
@@ -293,3 +322,25 @@ Aborted due to warnings.
 Task submitted by [Chris Talkington](http://christalkington.com/)
 
 *This file was generated on Fri Mar 04 2016 15:50:24.*
+
+## Credits and original authors
+
+- Original project: [grunt-contrib-copy](https://github.com/gruntjs/grunt-contrib-copy).
+- Grunt Team.
+- Stackline maintenance: [Alexandro Paixao Marques](https://www.linkedin.com/in/aleinfo/) and [Stackline contributors](https://github.com/alexandroit).
+
+Original copyright, license notices and contributor acknowledgements remain part of this distribution. Stackline maintenance does not replace authorship of the original work.
+
+## License
+
+`MIT`. See the license and notice files in the [repository](https://github.com/alexandroit/stackline-grunt-contrib-copy).
+
+## Community and Links
+
+- [Stackline website](https://alexandro.net/)
+- [GitHub projects](https://github.com/alexandroit)
+- [npm packages](https://www.npmjs.com/~alex360qc)
+- [Reddit community — r/Stackline](https://www.reddit.com/r/Stackline/)
+- [Maintainer LinkedIn](https://www.linkedin.com/in/aleinfo/)
+
+Use this repository's issue tracker for reproducible bugs and feature requests. Join r/Stackline for examples, usage questions and release discussions.

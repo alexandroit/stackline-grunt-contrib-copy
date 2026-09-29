@@ -1,7 +1,7 @@
 {
   "name": "@stackline/grunt-contrib-copy",
   "description": "Copy files and folders",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": {
     "name": "Grunt Team",
     "url": "http://gruntjs.com/"
@@ -30,8 +30,12 @@
     "grunt-contrib-clean": "2.0.1"
   },
   "keywords": [
-    "gruntplugin",
     "stackline",
+    "npm-package",
+    "grunt-contrib-copy",
+    "grunt-plugin",
+    "nodejs",
+    "gruntplugin",
     "maintenance-fork"
   ],
   "files": [
@@ -48,7 +52,7 @@
   "bugs": {
     "url": "https://github.com/alexandroit/stackline-grunt-contrib-copy/issues"
   },
-  "homepage": "https://github.com/alexandroit/stackline-grunt-contrib-copy#readme",
+  "homepage": "https://alexandro.net/docs/vanilla/grunt-contrib-copy/",
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org"
