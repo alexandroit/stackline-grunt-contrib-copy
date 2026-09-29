@@ -4,7 +4,7 @@
     {
       "name": "@stackline/grunt-contrib-copy",
       "path": "README.md",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "baselineVersion": "1.0.0",
       "keywords": [
         "stackline",
@@ -18,8 +18,8 @@
       "homepage": "https://alexandro.net/docs/vanilla/grunt-contrib-copy/",
       "baselineTarball": "https://registry.npmjs.org/@stackline/grunt-contrib-copy/-/grunt-contrib-copy-1.0.0.tgz",
       "baselineIntegrity": "sha512-OR+XFan6NuZxoub9d0PUgoHNt4xSHA6V6CR1zdjOd9IznZRFcEL9899y9fkhgMgXSP4rjJYiHhQ/WCmNAOmmow==",
-      "expectedSha512": "9756f6816ac61f39a0ff204136e518eaa0bd907eef45ea5926de649c0ffb528812d377af0e0e691adb76bab5262ed7021680580dae48bb620d3dfff35c4d0d3e",
-      "tag": "docs-stackline-grunt-contrib-copy-v1.0.1"
+      "expectedSha512": "934525b7a40544632e7758bee968add2ef344be92b134fc75ed611f633e621eaf8d4704ad722927e736b856dd0ee264ee23603d5d8b21b2bb22e719f1d1932a8",
+      "tag": "docs-stackline-grunt-contrib-copy-v1.0.2"
     }
   ]
 }
